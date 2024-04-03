@@ -1,0 +1,35 @@
+{
+  "name": "ostowe-express-starter",
+  "version": "1.0.0",
+  "description": "Expres + Prisma + TS Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostowe/express-starter.git"
+  },
+  "author": "Owen Stowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ostowe/express-starter/issues"
+  },
+  "homepage": "https://github.com/ostowe/express-starter#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.3",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.0",
+    "@types/cors": "^2.8.17",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
